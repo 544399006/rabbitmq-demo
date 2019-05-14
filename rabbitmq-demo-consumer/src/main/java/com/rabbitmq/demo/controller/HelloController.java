@@ -22,8 +22,8 @@ public class HelloController {
         return "123";
     }
 
-    @RequestMapping("/test4")
-    public String test4(@Valid @RequestBody Person person){
+    @RequestMapping("/test3")
+    public String test3(@Valid @RequestBody Person person){
         return "123";
     }
 
